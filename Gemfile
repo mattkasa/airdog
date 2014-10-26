@@ -39,4 +39,5 @@ gem 'unicorn'
 # gem 'debugger', group: [:development, :test]
 
 gem 'heroku'
+gem 'devise'
 gem 'ionic-rails-engine'
