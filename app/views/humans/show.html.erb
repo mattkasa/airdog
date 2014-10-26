@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Birthday:</strong>
+  <%= @human.birthday %>
+</p>
+
+<p>
+  <strong>Gender:</strong>
+  <%= @human.gender %>
+</p>
+
+<%= link_to 'Edit', edit_human_path(@human) %> |
+<%= link_to 'Back', humans_path %>
