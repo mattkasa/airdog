@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="440"
+   height="100"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="logo.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.6568542"
+     inkscape:cx="62.890052"
+     inkscape:cy="40.78534"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1440"
+     inkscape:window-height="876"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-41.142849,-311.50505)">
+    <path
+       id="path3946"
+       style="fill:none;stroke:#d72121;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 48.105475,410.08182 c 0,0 30.523906,3.1397 46.311882,-19.11855 0,0 18.475223,7.92817 24.787993,7.35428 0,0 12.88334,-3.16141 17.1875,-15.5 l -24.375,-18.65625 c 1.43472,-5.45193 -5.16458,-12.90612 -9.46875,-16.0625 0,0 6.03152,-20.94001 -0.28125,-28.6875 l -7.468751,14.90625 c 0,-11.19082 -3.4375,-16.0625 -3.4375,-16.0625 l -12.625,22.65625 c -7.385259,3.48573 -17.284708,12.34784 -29.107331,28.05226 -11.996838,15.78633 -1.523793,41.11826 -1.523793,41.11826 z m 0.354472,-39.01952 c 11.622379,-14.08329 23.742868,2.12546 21.571295,9.95905 8.667851,-7.88683 30.677688,-2.12778 21.993226,12.68087"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccccccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:64.38926696999999422px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#d72121;fill-opacity:1;stroke:none;font-family:Futura Lt BT;-inkscape-font-specification:Futura Lt BT;stroke-opacity:1;stroke-linejoin:round;stroke-linecap:round;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+       x="157.52104"
+       y="382.19406"
+       id="text3775"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3777"
+         x="157.52104"
+         y="382.19406">airdogndog</tspan></text>
+  </g>
+</svg>
