@@ -40,3 +40,4 @@ gem 'unicorn'
 
 gem 'heroku'
 gem 'devise'
+gem 'bootstrap-rails-engine'
