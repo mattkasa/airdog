@@ -17,6 +17,7 @@ ActiveRecord::Schema.define(version: 20141026183159) do
   enable_extension "plpgsql"
 
   create_table "dogs", force: true do |t|
+    t.string   "name"
     t.date     "birthday"
     t.string   "gender"
     t.integer  "human_id"
@@ -27,6 +28,9 @@ ActiveRecord::Schema.define(version: 20141026183159) do
   add_index "dogs", ["human_id"], name: "index_dogs_on_human_id", using: :btree
 
   create_table "humans", force: true do |t|
+    t.string   "name",                   default: "", null: false
+    t.date     "birthday"
+    t.string   "gender"
     t.string   "email",                  default: "", null: false
     t.string   "encrypted_password",     default: "", null: false
     t.string   "reset_password_token"

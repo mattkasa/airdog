@@ -5,14 +5,15 @@ default: &default
 
 development:
   <<: *default
-  url: <%= ENV['DATABASE_URL'] %>
+  database: airdogndog_development
+  host: localhost
+  username: airdogndog
 
 test:
   <<: *default
   database: airdogndog_test
   host: localhost
   username: airdogndog
-  password: <%= ENV['DATABASE_PASSWORD'] %>
 
 production:
   <<: *default

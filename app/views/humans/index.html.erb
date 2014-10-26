@@ -3,6 +3,7 @@
 <table>
   <thead>
     <tr>
+      <th>Name</th>
       <th>Birthday</th>
       <th>Gender</th>
       <th colspan="3"></th>
@@ -12,6 +13,7 @@
   <tbody>
     <% @humans.each do |human| %>
       <tr>
+        <td><%= human.name %></td>
         <td><%= human.birthday %></td>
         <td><%= human.gender %></td>
         <td><%= link_to 'Show', human %></td>

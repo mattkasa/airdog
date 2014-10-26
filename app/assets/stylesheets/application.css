@@ -14,3 +14,12 @@
  *= require_self
  *= require bootstrap/bootstrap
  */
+
+body {
+  padding-top: 70px;
+}
+
+.navbar-brand {
+  padding: 0 !important;
+  margin-left: 0 !important;
+}

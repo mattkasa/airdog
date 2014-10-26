@@ -1,6 +1,7 @@
 class DogsController < ApplicationController
   respond_to :html
   before_action :set_dog, :only => [:show, :edit, :update, :destroy]
+  skip_before_action :authenticate_human!, :only => [:index, :show]
 
   def index
     @dogs = Dog.all
@@ -42,6 +43,6 @@ class DogsController < ApplicationController
   end
 
   def dog_params
-    params.require(:dog).permit(:birthday, :gender, :human_id)
+    params.require(:dog).permit(:name, :birthday, :gender, :human_id)
   end
 end
