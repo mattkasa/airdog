@@ -60,8 +60,6 @@ GEM
       multi_json (~> 1.8)
     hike (1.2.3)
     i18n (0.6.11)
-    ionic-rails-engine (0.9.99.11)
-      railties (>= 3.2)
     jbuilder (2.2.4)
       activesupport (>= 3.0.0, < 5)
       multi_json (~> 1.2)
@@ -150,7 +148,6 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   devise
   heroku
-  ionic-rails-engine
   jbuilder (~> 2.0)
   jquery-rails
   pg

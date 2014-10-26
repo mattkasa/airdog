@@ -40,4 +40,3 @@ gem 'unicorn'
 
 gem 'heroku'
 gem 'devise'
-gem 'ionic-rails-engine'
