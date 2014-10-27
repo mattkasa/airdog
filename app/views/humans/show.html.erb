@@ -1,19 +1,14 @@
-<p id="notice"><%= notice %></p>
-
-<p>
-  <strong>Name:</strong>
-  <%= @human.name %>
-</p>
-
-<p>
-  <strong>Birthday:</strong>
-  <%= @human.birthday %>
-</p>
-
-<p>
-  <strong>Gender:</strong>
-  <%= @human.gender %>
-</p>
-
-<%= link_to 'Edit', edit_human_path(@human) %> |
-<%= link_to 'Back', humans_path %>
+<div class="row">
+  <div class="col-md-4">
+    <h2><%= @human.name %></h2>
+    <p><i><%= @human.gender %> <%= distance_of_time_in_words @human.birthday, Date.today %> old</i></p>
+    <p>
+      Hi, I'm <%= @human.name %>,
+      <% unless @human.dogs.empty? %>
+        I take care of <%= @human.dogs.map(&:name).join(', ') %>!
+      <% else %>
+        I don't have any dogs yet :(
+      <% end %>
+    </p>
+  </div>
+</div>
